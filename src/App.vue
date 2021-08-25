@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <div class="container-app" v-if="isVisiable">
+      <div>
+        <img src="./assets/jopa.png" alt="jopa" width="30%" height="30%">
+      </div>
       <div class="logo-cont">
-        <img class="logo" src="./assets/logo.png" width="600px" height="600px">
-        <img class="logo-circ" src="./assets/logo-circ.png" width="600px" height="600px">
+        <img class="logo" src="./assets/logo.png" width="40%" height="40%">
+        <img class="logo-circ" src="./assets/logo-circ.png" width="40%" height="40%">
       </div>
           <div class="contain">
             <TextBlock></TextBlock>
@@ -47,10 +50,27 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+.contain {
+  padding-right: 310px;
+  width:100%;
+  z-index:5;
+}
+
+.logo {
+  position: relative;
+  left:20%;
+}
+.logo-cont {
+  margin:0;
+  position:absolute;
+  width:80%;
+  left:-15%;
+}
 .logo-circ{
-  position: absolute;
-  left:3.9%;
-  top:18.7%;
+
+  position: relative;
+  left:-20%;
   animation: 0.1s linear 0s normal none infinite running rot;
   -webkit-animation: 30s linear 0s normal none infinite running rot;
 }
@@ -91,7 +111,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 700px) {
 .container-app{
   width:100vw;
   height: 100vh;
@@ -100,19 +120,33 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.logo-cont{
-  width:270px;
-  height:270px;
-}
+
 .logo {
-  width:270px;
-  height: 270px;
+  margin-top:-60%;
+  width:60%;
+  position: relative;
+  left:30%;
 }
-.logo-circ {
-  width:270px;
-  height: 270px;
-  left:13.9%;
-  top:9.3%;
+.logo-cont {
+  margin:0;
+  position:absolute;
+  width:80%;
+  left:-15%;
+
+
 }
+.logo-circ{
+  width:60%;
+  position: relative;
+  padding-top:-80%;
+  margin-top:-80%;
+  left:30%;
+  margin-bottom:5.2%;
+}
+
+.contain{
+  padding-right: 0;
+}
+
   }
 </style>

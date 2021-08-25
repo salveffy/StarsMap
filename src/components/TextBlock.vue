@@ -24,7 +24,7 @@ export default defineComponent({
   color:white;
   font-size:25px;
 }
- @media screen and (max-width: 450px) {
+ @media screen and (max-width: 700px) {
 .title {
   padding: 15px;
   color: white;
@@ -34,5 +34,6 @@ export default defineComponent({
   color:white;
   font-size:17px;
 }
+
  }
 </style>
