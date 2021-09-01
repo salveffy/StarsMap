@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="title">Наша первая встреча прошла под этими звездами</div>
-    <div class="text">Звездное небо - это круто !<br>
+    <div class="title">Звездное небо - это круто !</div>
+    <div class="text">
       Так почему бы не посмотреть на него более детально ?</div>
   </div>
 </template>

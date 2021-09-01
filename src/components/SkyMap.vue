@@ -7,7 +7,7 @@
       scrolling="no"
       marginheight="0"
       marginwidth="0"
-      src="https://virtualsky.lco.global/embed/index.html?longitude=60.00812450775173&latitude=30.394269753389032&gradient=false&projection=stereo&constellations=true&scalestars=2&magnitude=10&az=20&clock=Fri%20Aug%2030%202019%2018:00:00%20GMT+0300%20(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,%20%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D0%BE%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F)"
+      src="https://virtualsky.lco.global/embed/index.html?longitude=-119.86286000000001&latitude=34.4326&gradient=false&projection=stereo&cardinalpoints=false&constellations=true&showplanets=false&magnitude=10&live=true&az=117.5"
       allowTransparency="true"
     ></iframe>
   </div>
