@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container-app" v-if="isVisiable">
       <div>
-        <img src="./assets/jopa.png" alt="jopa" width="30%" height="30%">
+        <img src="./assets/black.png" alt="black" width="30%" height="30%">
       </div>
       <div class="logo-cont">
         <img class="logo" src="./assets/logo.png" width="40%" height="40%">
