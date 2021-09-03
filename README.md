@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://drive.google.com/uc?export=download&id=1j23PqCJCcFUf6h25mQnnEyN_k6EwKKtn"/>
+</p>
+
 # skymap
 
 ## Project setup
