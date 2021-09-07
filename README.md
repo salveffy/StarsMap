@@ -2,6 +2,8 @@
 <img src="https://drive.google.com/uc?export=download&id=1j23PqCJCcFUf6h25mQnnEyN_k6EwKKtn"/>
 </p>
 
+<h2>https://salveffy.github.io/StarsMap/</h2>
+
 # skymap
 
 ## Project setup
